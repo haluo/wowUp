@@ -10,7 +10,7 @@ beg = time.time()
 ctypes.windll.user32.SetProcessDPIAware()
 
 # get window handle and dimensions
-hwnd = win32gui.FindWindow(None, '选择Windows PowerShell')
+hwnd = win32gui.FindWindow(None, '魔兽世界')
 dimensions = win32gui.GetWindowRect(hwnd)
 
 # this gets the window size, comparing it to `dimensions` will show a difference
