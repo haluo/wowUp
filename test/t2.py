@@ -19,4 +19,4 @@ time.sleep(3)
 #按应用的尺寸截图
 img = ImageGrab.grab((x1,y1,x2,y2))
 #保存截图
-img.save(r'capture.jpg','jpeg')
+img.save(r'capture1.jpg','jpeg')

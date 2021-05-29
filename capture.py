@@ -50,7 +50,7 @@ dimensions = (rect.left, rect.top, rect.right, rect.bottom)
 # grab screen region set in the revised `dimensions`
 image = ImageGrab.grab(dimensions)
 # image.show()
-image.save(r'capture.jpg','jpeg')
+image.save(r'data/capture.jpg','jpeg')
 
 end = time.time()
 print(end - beg)
